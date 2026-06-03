@@ -6,12 +6,6 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
 nav {
     background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 100%);
     padding: 15px;
@@ -20,24 +14,6 @@ nav {
     border-radius: 10px;
     justify-content: center;
 }
-
-nav a {
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-img {
-    width: 200px;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-}
-
-footer {
-    margin-top: auto;
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
+nav a { color: #000; text-decoration: none; font-weight: bold; }
+h1 { text-align: center; color: #333; }
+footer { margin-top: auto; text-align: center; padding: 20px; background-color: rgba(255, 255, 255, 0.2); }
