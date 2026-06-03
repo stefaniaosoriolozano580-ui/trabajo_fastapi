@@ -17,7 +17,7 @@ def productos(request: Request):
 
 @app.get("/cuidado-pelo")
 def cuidado(request: Request):
-    return templates.TemplateResponse("cuidado-pelo.html", {"request": request})
+    return templates.TemplateResponse("cuidadopelo.html", {"request": request})
 
 @app.get("/contacto")
 def contacto(request: Request):
