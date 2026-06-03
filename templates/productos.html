@@ -1,17 +1,21 @@
 {% extends "base.html" %}
 
-{% block title %}Productos{% endblock %}
+{% block titulo %}Productos — Mi Web{% endblock %}
 
-{% block content %}
-<h1>🧴 Productos recomendados</h1>
+{% block contenido %}
+<h1>Productos para el Cabello</h1>
 
-<div class="card">
-    <h3>Shampoo Natural</h3>
-    <p>Ideal para cabello afro y rizado</p>
-</div>
+<ul>
+   <li>Champú Reparador: Diseñado para limpiar profundamente y fortalecer la hebra capilar desde la raíz.</li>
+    <li>Acondicionador Hidratante: Ideal para desenredar y aportar suavidad extrema sin dejar residuos pesados.</li>
+    <li>Mascarilla Intensiva: Tratamiento profundo para nutrir, dar brillo y restaurar el cabello maltratado.</li>
+    <li>Aceite Sellador de Puntas: Formulado con ingredientes naturales para proteger las puntas y prevenir el frizz.</li>
+    <li>Spray Desenredante: Spray ligero para un peinado fácil y protección térmica antes del secado.</li>
+</ul>
 
-<div class="card">
-    <h3>Aceite de coco</h3>
-    <p>Hidratación profunda</p>
-</div>
-{% endblock %}
+{% endblock %} 
+
+<footer>   
+<p>Esta página fue creada con <strong>FastAPI</strong> y <strong>Jinja2</strong>.</p>
+<p>El año actual es: <strong>{{ ano_actual }}</strong></p>
+</footer>
