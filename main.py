@@ -21,11 +21,12 @@ async def inicio(request: Request):
 async def productos(request: Request):
     return templates.TemplateResponse(request, "productos.html", {"ano_actual": datetime.now().year})
 
+# Ruta actualizada para cuidadopelo.html
 @app.get("/pelocuidado", response_class=HTMLResponse)
 async def pelocuidado(request: Request):
-    return templates.TemplateResponse(request, "pelocuidado.html", {"ano_actual": datetime.now().year})
+    return templates.TemplateResponse(request, "cuidadopelo.html", {"ano_actual": datetime.now().year})
 
 @app.get("/contacto", response_class=HTMLResponse)
 async def contacto(request: Request):
     return templates.TemplateResponse(request, "contacto.html", {"ano_actual": datetime.now().year})
-  
+    
