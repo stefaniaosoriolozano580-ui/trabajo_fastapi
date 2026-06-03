@@ -1,70 +1,36 @@
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #1e1e2f, #3a3a5a);
-    color: white;
+    background-color: rgb(255, 166, 222);
 }
 
-/* NAV */
+h1 {
+    text-align: center;
+}
+
 nav {
+    background-color: rgb(227, 60, 177);
+    padding: 15px;
     display: flex;
-    justify-content: space-between;
-    padding: 15px 30px;
-    background: #111;
-}
-
-nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #00c6ff;
-}
-
-/* HERO */
-.hero {
-    text-align: center;
-    padding: 60px;
-}
-
-/* CARDS */
-.card {
-    background: rgba(255,255,255,0.1);
-    margin: 20px;
-    padding: 20px;
+    gap: 20px;background: linear-gradient(90deg,);
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+
+    
+
+}
+a {
+    color: #000;
 }
 
-/* INPUTS */
-input, textarea {
-    display: block;
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
+img {
+    width: 200px;
+    height: auto;
+    display:block;
+    margin: 0 auto;
 }
 
-/* BOTÓN */
-button {
-    background: #00c6ff;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #0072ff;
-    color: white;
-}
-
-/* FOOTER */
 footer {
-    text-align: center;
-    padding: 20px;
-    background: #111;
-    margin-top: 40px;
+  margin-top: auto;
+  text-align: center;
+  padding: 25rem;
 }
