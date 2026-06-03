@@ -2,29 +2,25 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Mi Web{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block titulo %}Mi Web{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
-    
 </head>
 <body>
+    <nav>
+        <a href="contacto">Contacto</a>
+        <a href="productos">Productos</a>
+        <a href="cuidadopiel">Cuidado Pelo</a>
+        <a href="inicio">Inicio</a>
 
-<nav>
-    <h2>💇🏽‍♀️ Cuidado del Cabello</h2>
-    <div>
-        <a href="/">Inicio</a>
-        <a href="/productos">Productos</a>
-        <a href="/cuidado-pelo">Cuidado</a>
-        <a href="/contacto">Contacto</a>
-    </div>
-</nav>
+    </nav>
 
-<main>
-    {% block content %}{% endblock %}
-</main>
+    <main>
+        {% block contenido %}{% endblock %}
+    </main>
 
-<footer>
-    <p>Proyecto hecho por Stefania 💜</p>
-</footer>
-
+    <footer>
+        <p>© {{ ano_actual }} — Hecho con FastAPI + Jinja2</p>
+    </footer>
 </body>
 </html>
