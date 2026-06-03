@@ -1,7 +1,14 @@
 {% extends "base.html" %}
-{% block titulo %}Contacto — Bloomshell{% endblock %}
-{% block contenido %}
-<h1>Contáctanos</h1>
-<p>Escríbenos a: <strong>bloomshellpaginaweb@gmail.com</strong></p>
-{% endblock %}
 
+{% block title %}Contacto{% endblock %}
+
+{% block content %}
+<h1>📩 Contáctanos</h1>
+
+<div class="card">
+    <input type="text" placeholder="Nombre">
+    <input type="email" placeholder="Correo">
+    <textarea placeholder="Mensaje"></textarea>
+    <button>Enviar</button>
+</div>
+{% endblock %}
